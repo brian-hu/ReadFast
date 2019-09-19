@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/clear_actionbar_menu_option"
+        android:title="Clear"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/delete_all_actionbar_menu_option"
+        android:title="Delete selected"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+</menu>
